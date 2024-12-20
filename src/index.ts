@@ -1,2 +1,2 @@
-export * from "./withoutUndefinedProperties.js";
 export type * from "./types.js";
+export * from "./withoutUndefinedProperties.js";
