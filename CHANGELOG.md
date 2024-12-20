@@ -1,3 +1,9 @@
+## [0.1.1](https://github.com/JoshuaKGoldberg/without-undefined-properties/compare/0.1.0...0.1.1) (2024-12-20)
+
+### Bug Fixes
+
+- also export withoutUndefinedPropertiesDeep ([f001c11](https://github.com/JoshuaKGoldberg/without-undefined-properties/commit/f001c1155642dadd0f916f6861f8ab6880675d6f))
+
 # 0.1.0 (2024-12-20)
 
 ### Features
