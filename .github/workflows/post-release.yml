@@ -14,8 +14,8 @@ jobs:
 
             The release is available on:
 
-            * [GitHub releases](https://github.com/JoshuaKGoldberg/remove-undefined-properties/releases/tag/{release_tag})
-            * [npm package (@latest dist-tag)](https://www.npmjs.com/package/remove-undefined-properties/v/${{ env.npm_version }})
+            * [GitHub releases](https://github.com/JoshuaKGoldberg/without-undefined-properties/releases/tag/{release_tag})
+            * [npm package (@latest dist-tag)](https://www.npmjs.com/package/without-undefined-properties/v/${{ env.npm_version }})
 
             Cheers! 📦🚀
 

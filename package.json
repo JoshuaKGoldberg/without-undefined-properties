@@ -1,10 +1,10 @@
 {
-	"name": "remove-undefined-properties",
+	"name": "without-undefined-properties",
 	"version": "0.0.0",
-	"description": "Removes undefined properties from an object. 🫥",
+	"description": "Copies an object without its undefined properties. 🫥",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/JoshuaKGoldberg/remove-undefined-properties"
+		"url": "https://github.com/JoshuaKGoldberg/without-undefined-properties"
 	},
 	"license": "MIT",
 	"author": {
@@ -28,16 +28,16 @@
 		"lint:packages": "pnpm dedupe --check",
 		"lint:spelling": "cspell \"**\" \".github/**/*\"",
 		"prepare": "husky",
-		"test": "vitest",
+		"test": "vitest --typecheck",
 		"tsc": "tsc"
 	},
 	"lint-staged": {
 		"*": "prettier --ignore-unknown --write"
 	},
-	"dependencies": {},
 	"devDependencies": {
 		"@eslint-community/eslint-plugin-eslint-comments": "4.4.1",
 		"@eslint/js": "9.16.0",
+		"@release-it/conventional-changelog": "^9.0.3",
 		"@types/eslint-plugin-markdown": "2.0.2",
 		"@types/node": "22.10.1",
 		"@vitest/coverage-v8": "2.1.8",
@@ -62,6 +62,7 @@
 		"prettier-plugin-curly": "0.3.1",
 		"prettier-plugin-packagejson": "2.5.6",
 		"prettier-plugin-sh": "0.14.0",
+		"release-it": "^17.10.0",
 		"sentences-per-line": "0.2.1",
 		"tsup": "8.3.5",
 		"typescript": "5.7.2",

@@ -27,7 +27,7 @@
     "README.md"
   ],
   "imageSize": 100,
-  "projectName": "remove-undefined-properties",
+  "projectName": "without-undefined-properties",
   "projectOwner": "JoshuaKGoldberg",
   "repoHost": "https://github.com",
   "repoType": "github"

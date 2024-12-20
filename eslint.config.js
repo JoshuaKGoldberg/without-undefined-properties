@@ -40,6 +40,9 @@ export default tseslint.config(
 			},
 		},
 		rules: {
+			"@typescript-eslint/no-dynamic-delete": "off",
+			"@typescript-eslint/no-empty-object-type": "off",
+
 			// Stylistic concerns that don't interfere with Prettier
 			"logical-assignment-operators": [
 				"error",
@@ -58,7 +61,7 @@ export default tseslint.config(
 		rules: {
 			"n/no-missing-import": [
 				"error",
-				{ allowModules: ["remove-undefined-properties"] },
+				{ allowModules: ["without-undefined-properties"] },
 			],
 		},
 	},
