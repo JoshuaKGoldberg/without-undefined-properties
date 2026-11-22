@@ -1,4 +1,4 @@
-import { WithoutUndefinedProperties } from "./types.js";
+import { WithoutUndefinedProperties } from "./types.ts";
 
 export function withoutUndefinedProperties<T extends object>(
 	value: T,
