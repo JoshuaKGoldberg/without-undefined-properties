@@ -1,4 +1,4 @@
-import { WithoutUndefinedPropertiesDeep } from "./types.js";
+import { WithoutUndefinedPropertiesDeep } from "./types.ts";
 
 export function withoutUndefinedPropertiesDeep<T extends object>(
 	value: T,
@@ -13,5 +13,5 @@ export function withoutUndefinedPropertiesDeep<T extends object>(
 		}
 	}
 
-	return result as WithoutUndefinedPropertiesDeep<T>;
+	return result;
 }

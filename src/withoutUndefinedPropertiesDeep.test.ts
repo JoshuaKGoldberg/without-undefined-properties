@@ -1,8 +1,8 @@
 import { describe, expect, test } from "vitest";
 
-import { withoutUndefinedPropertiesDeep } from "./withoutUndefinedPropertiesDeep.js";
+import { withoutUndefinedPropertiesDeep } from "./withoutUndefinedPropertiesDeep.ts";
 
-describe("withoutUndefinedPropertiesDeep", () => {
+describe(withoutUndefinedPropertiesDeep, () => {
 	test.each([
 		[{}, {}],
 		[{ a: 1 }, { a: 1 }],

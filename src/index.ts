@@ -1,3 +1,3 @@
-export type * from "./types.js";
-export * from "./withoutUndefinedProperties.js";
-export * from "./withoutUndefinedPropertiesDeep.js";
+export type * from "./types.ts";
+export * from "./withoutUndefinedProperties.ts";
+export * from "./withoutUndefinedPropertiesDeep.ts";
