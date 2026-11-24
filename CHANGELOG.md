@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.3](https://github.com/JoshuaKGoldberg/without-undefined-properties/compare/0.1.2...0.1.3) (2026-11-24)
+
+### Bug Fixes
+
+- bump to create-typescript-app@2.87.18 ([#410](https://github.com/JoshuaKGoldberg/without-undefined-properties/issues/410)) ([665d328](https://github.com/JoshuaKGoldberg/without-undefined-properties/commit/665d32847ae29f9fe6f8b6e16669845912072701)), closes [#409](https://github.com/JoshuaKGoldberg/without-undefined-properties/issues/409)
+
 ## [0.1.2](https://github.com/JoshuaKGoldberg/without-undefined-properties/compare/0.1.1...0.1.2) (2025-03-31)
 
 ### Bug Fixes

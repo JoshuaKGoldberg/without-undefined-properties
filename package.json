@@ -1,6 +1,6 @@
 {
 	"name": "without-undefined-properties",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"description": "Copies an object without its undefined properties. 🫥",
 	"repository": {
 		"type": "git",
